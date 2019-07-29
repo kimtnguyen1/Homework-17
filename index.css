@@ -1,0 +1,107 @@
+.global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'DM Serif Display', serif;
+    height: 100vh;
+    padding: 5%;
+}
+.header {
+    max-width: 960px;
+    display: flex;
+    justify-content:space-between;
+}
+.logo {
+    font-size: 40px;
+    margin-left: 40px; 
+    margin-top: 50px; 
+}
+.menu {
+    display: flex;
+    align-content: flex-end;
+    color: black;
+    justify-content: center; 
+}
+.menu li {
+    text-decoration: none;
+    list-style-type: none;
+    align-items: stretch;
+    color: green;
+    margin: 0;
+    padding: 50;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px; 
+    
+}
+.menu li a {
+    margin-left: 40px;
+    text-decoration:none; 
+    color: #707070;
+}
+/* .header .menu {
+    color: red;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+} */
+.a {
+    font-size:50px;
+    color:grey;
+    font-weight: bold;
+    font-family: 'Playfair Display SC', serif;
+}
+.b {
+    font-size:25px;
+    font-weight:bold;
+    font-family:'Playfair Display SC', serif;
+}
+.header .image img {
+    width: 50%;
+    height: auto;
+}
+.casestudy {
+    display: inline-block;
+    align-items: center;
+    margin-top: 50px; 
+    padding: 50px; 
+    font-family: 'Playfair Display SC', serif;
+    text-decoration: none; 
+    color: black;  
+    
+}
+.h2 {
+    float: right; 
+}
+.responsive {
+    width: 100%;
+    height: auto; 
+}
+.ul.sidenav {
+    list-style-type: none; 
+    margin:0;
+    padding:0; 
+    width: 25%;
+    height: 100%; 
+    position: fixed; 
+    overflow: auto
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+ .h1{
+     text-align: right;
+     float: right;  
+     line-height: 1.5em;
+     color: black; 
+ }
+ .h1: after; 
+    display: black; 
+    border: 2px solid black; 
